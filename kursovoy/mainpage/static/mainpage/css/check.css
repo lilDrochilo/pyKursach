@@ -14,19 +14,19 @@ aside{
 
 aside img{
     width: 80px;
-    float: left;
+    float: right;
 }
 
 aside .logo{
-    font-size: 40px;
-    margin-lift: 10px;
+    font-size: 80px;
+    margin-lift: 60px;
     font-weight: bold;
     position: relative;
     top: -5px;
 }
 
 aside h3{
-    margin-top: 50px;
+    margin-top: 58px;
     font-size: 28px;
 }
 
