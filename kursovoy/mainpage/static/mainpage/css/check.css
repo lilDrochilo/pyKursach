@@ -3,7 +3,7 @@ body {
 }
 
 aside{
-    float: left;
+    float: left ;
     background: #91a145;
     width: 20%;
     padding: 2.5%;
@@ -36,12 +36,38 @@ aside ul li{
     display: block;
     margin-top: 20px;
     margin-left: -30px;
-    transition: transform .6s ease;
+    transition: transform .3s ease;
 }
 
 aside ul li:hover, aside ul a:hover {
-    color: #808080;
+    color: #000000;
     text-decoration: none;
     transform: scale(1.05);
 }
 
+main .main_info {
+    float: left;
+    color: #000000;
+    margin-top:100px;
+    text-align: center ;
+    width: 80%;
+}
+
+main .master_info {
+    float: left;
+    color: #000000;
+    margin-top:100px;
+    text-align: center ;
+    width: 80%;
+} {
+    float: left;
+    color: #000000;
+    margin-top:100px;
+    text-align: center ;
+    width: 80%;
+}
+main .main_info h1 {front-size: 100px}
+main .main_info p{max-width: 400px: margin: 20px auto}
+
+main .master_info h1 {front-size: 100px}
+main .master_info p{max-width: 400px: margin: 20px auto}
