@@ -3,13 +3,14 @@ body {
 }
 
 aside{
-    float: left ;
+    float: left;
     background: #91a145;
     width: 20%;
     padding: 2.5%;
     height: 100vh;
     color: #fff;
     border-right: 4px solid#4B371C;
+
 }
 
 aside img{
@@ -59,15 +60,39 @@ main .master_info {
     margin-top:100px;
     text-align: center ;
     width: 80%;
-} {
-    float: left;
-    color: #000000;
-    margin-top:100px;
-    text-align: center ;
-    width: 80%;
 }
+
 main .main_info h1 {front-size: 100px}
 main .main_info p{max-width: 400px: margin: 20px auto}
+main .main_info button{
+    padding: 20px 50px;
+    border: none;
+    border-radius: 25px;
+    front-weight: 500;
+}
 
+main .master_info button{
+    padding: 20px 50px;
+    border: none;
+    border-radius: 25px;
+    front-weight: 500;
+}
 main .master_info h1 {front-size: 100px}
 main .master_info p{max-width: 400px: margin: 20px auto}
+
+.alert-warning{
+    weight: 300px;
+    float:left;
+    text-align: left;
+    clear: right;
+}
+
+.news_main_page .h1{
+    position: center;
+}
+
+form {
+    width: 30%;
+    margin-left: 20%;
+    margin-bottom: 50px;
+}

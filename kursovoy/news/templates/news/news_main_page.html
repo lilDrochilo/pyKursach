@@ -1,0 +1,21 @@
+{% extends 'mainpage/layout.html' %}
+
+{% block title %} Акции!{% endblock%}
+
+{% block mainContent %}
+    <div class="news_main_page">
+        <h1>Акции!</h1>
+
+        {% if news %}
+            {%for i in news%}
+                <div class="alert alert-warning">
+                    <h3>{{i.title}} </h3>
+                    <p>{{i.preview}}</p>
+                </div>
+            {% endfor %}
+        {%else%}
+            <p>Пока что актуальных акций нет:(<p>
+        {% endif %}
+
+    </div>
+{%endblock%}

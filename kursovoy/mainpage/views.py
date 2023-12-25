@@ -5,8 +5,6 @@ from django.http import HttpResponse
 def index(request):
     data_main_page={
         'title': 'Добро пожаловать в нашу тату студию!',
-
-
     }
     return render(request, 'mainpage/index.html',data_main_page)
 

@@ -1,6 +1,6 @@
 {% load static %}
 <!doctype html>
-<html lang="ru">
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -14,6 +14,7 @@ Chrome, Chrome Android, Edge, Firefox, Opera 12.1, Safari 4, Safari iOS 3.2">
 
 </head>
 <body>
+
     <aside>
         <img src="{%static 'mainpage/images/none.jpg'%}" alt="Логотип">
         <span class="logo">Yůnei</span>
@@ -22,6 +23,8 @@ Chrome, Chrome Android, Edge, Firefox, Opera 12.1, Safari 4, Safari iOS 3.2">
             <a href="{% url 'home' %}"><li><i class="fa-solid fa-circle-dot"></i> Главная</li></a>
             <a href="{% url 'about_master' %}"><li><i class="fa-solid fa-circle-dot"></i>  Мастер</li></a>
             <a href="{% url 'contacts' %}"><li><i class="fa-solid fa-circle-dot"></i> Контакты</li></a>
+            <a href="{% url 'news_main_page' %}"><li><i class="fa-solid fa-circle-dot"></i> Новости</li></a>
+            <a href="{% url 'registration_home' %}"><li><i class="fa-solid fa-circle-dot" ></i> Оставить заявку</li></a>
         </ul>
         <style>
           a {
@@ -29,6 +32,9 @@ Chrome, Chrome Android, Edge, Firefox, Opera 12.1, Safari 4, Safari iOS 3.2">
           }
         </style>
     </aside>
+
+
+
     <main>
         {% block mainContent %} {% endblock%}
     </main>

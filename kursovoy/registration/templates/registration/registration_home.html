@@ -3,6 +3,17 @@
 {% block title %} Запись на сеанс{%  endblock%}
 
 {% block mainContent %}
-        <h1> Типа контакты</h1>
-        <p>и тут тоже</p>
+        <div class="registration_home">
+                <h1>Оформим вкид</h1>
+                <form  method="post">
+                        {% csrf_token %}
+                        <input type="text" placeholder="Вам есть 18 лет?" class="form-control"><br>
+                        <input type="text" placeholder="Как вас зовут?" class="form-control"><br>
+                        <input type="text" placeholder="Введите ваш номер телефона:" class="form-control"><br>
+                        <input type="text" placeholder="У вас есть эскиз?" class="form-control"><br>
+                        <input type="text" placeholder="Оставьте ссылку на вашу соц.сеть:" class="form-control"><br>
+                        <input type="date" placeholder="Когда ходите набить тату?" class="form-control"><br>
+                        <button class="btn btn-success" type="submit">Отправить!</button>
+                </form>
+        </div>
 {% endblock %}
